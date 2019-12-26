@@ -100,7 +100,7 @@ module Danger
         Here's an example of a #{filename} entry:
 
         ```markdown
-        #{Danger::Changelog::ChangelogEntryLine.example(github)}
+        #{Danger::Changelog::ChangelogEntryLine.example(gitlab)}
         ```
       MARKDOWN
       warn "Unless you're refactoring existing code or improving documentation, please update #{filename}.", sticky: false
